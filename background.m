@@ -15,4 +15,5 @@ for i=1:size(x,1)
 end
 figure; 
 imshow(newimage);
+imwrite(newimage, fullfile('C:\Users\Aarthy\Desktop', 'newimage.png'));
             
